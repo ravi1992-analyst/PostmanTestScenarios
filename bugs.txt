@@ -1,0 +1,127 @@
+well in the screenshot, lot of issues has been identified, which i am documented here, since the business documnets and knowledge on the requirments are enough for me to test.
+i am pointing out the issues purely based on my knowedge.
+
+UI perspective.
+Bug 1.
+Heading - paddings/ Margins are inconsistant (nuthing but the spacings). 
+
+Steps to reporduce:
+1.launch the URL
+2. Navigte to the account information page
+3.Verify the components spacing
+
+Actual : the Spacing are not consistant.
+Expexted : As the UI guidlines the spacings should be consistant accross the page
+
+Environment:
+Screenshot
+
+========================
+BUG 2.
+Heading - * are mandatory text is to small , text consistancy is not maintanded.
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify the mandatory text.
+
+Actual : text is small
+Expexted : texr should be same accross the page.
+
+Environment:
+Screenshot
+
+=========================
+BUG 3
+Headline - The primary state of the CTA(call to actions) buttons are not defined.
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify Buttons 
+
+Atual :  Both the bttons are in the same state.
+Expected : the buttons should highlight to make the difference
+
+Environment:
+Screenshot
+
+===========================
+BUG4.
+Headline - Position of the Continue could be on the right side based on the desing systems / patterns
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify positioning of the Buttons 
+
+Atual :  continue button position is on the left side.
+Expected : as the desing perspective it should be on right side.
+
+Environment:
+Screenshot
+
+==============================
+Functional perspective.
+
+BUG1
+Headline - Payment type section is missing.
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify payment section
+
+Actual: Payment type section is missing
+Expected: Payment types should be available to the user.
+
+Environment:
+Screenshot
+
+================================
+BUG2.
+Headline - Currency symbole is not know,  30 what euro, inr, 
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify payment 
+
+Actual: Payment currency symbole is missing
+Expected : currency symbole should be display.
+
+Environment:
+Screenshot
+
+=================================
+Bug3
+Headline - Security Code section is missing. if its a VISA type 
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify payment type visa
+
+Actual : when visa is selected the security code section is missing
+Expected: security code section should display.
+
+Environment:
+Screenshot
+
+=====================================
+BUg 4
+Headline -  Card holder name section is missing and Email Section is missing.
+
+Steps to reporduce:
+1.launch the URL
+2.Navigte to the account information page
+3.Verify payment section in the payment information section
+
+Actual: Card holders name and email section is missing
+Expected: these fields hsould be mandatory and user has to provide.
+
+Environment:
+Screenshot
+
+
+
